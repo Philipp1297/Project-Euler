@@ -13,5 +13,16 @@ for i in fibonacci_numbers:
 
 x= sum([i for i in liste if i%2==0 and i>0])
 
+# Problem 3
+x = 600851475143
+k = 1
+while k < x:
+    k += 1
+    while x % k == 0: 
+        x = x // k
+print(k)
+
+
+
 
 
