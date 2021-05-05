@@ -31,7 +31,6 @@ def maxproduct(number, digits):
             zeros += 1
         if not zeros and product > result:
             result = product
-
     return result
 
 x=maxproduct(digits, 13)
