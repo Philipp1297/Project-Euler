@@ -22,7 +22,7 @@ while k < x:
         x = x // k
 #print(k) # k is solution
 
-# Prblem 4 	Largest palindrome product
+# Prblem 4 Largest palindrome product
 liste=[]
 for i in range(100, 999):
     for j in range(100, 999):
@@ -31,6 +31,16 @@ for i in range(100, 999):
             liste.append(x)
 
 #print(max(liste))
+
+#Problem 5 Smallest multiple
+
+for x in range(21,1000000000):
+    if x%10==0 and x%9==0 and x%8==0 and x%7==0 and x%6==0 and x%5==0 and x%4==0 and x%3==0 and x%2==0 and x%1==0:
+        if x%11==0 and x%12==0 and x%13==0 and x%14==0 and x%15==0 and x%16==0 and x%17==0 and x%18==0 and x%19==0 and x%20==0:
+            print(x)
+            break
+
+
 
 
 
