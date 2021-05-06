@@ -1,2 +1,2 @@
-import common.utils 
-prime_factors(28)
+number= str(12356756757657575675675676575)
+print(number[:3])
