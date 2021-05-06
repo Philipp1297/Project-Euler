@@ -1,3 +1,2 @@
-i=2
-i**2
-print(i**2)
+import common.utils 
+prime_factors(28)
