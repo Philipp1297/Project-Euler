@@ -1,26 +1,24 @@
-# Problem 14
-
-liste=[]
-ergListe = []
-listeZahlen = []
-x=0
-for i in range(14,1000000):
-    listeZahlen.append(i)
-    x=i
-    liste.append(x)
-    while x>1:
-        if i%2==0:
-            x=x/2
-            liste.append(x)
+def create_sequence_num(n):
+    terms = 1
+    while n > 1:
+        if n % 2 == 0:
+            n = n / 2
         else:
-            x=((3*x)+1)
-            liste.append(x)
-    ergListe.append(len(liste))
+            n = 3 * n + 1
+        terms += 1
+    return terms
 
-max_value = max(ergListe)
-max_index = ergListe.index(max_value)
-wert = listeZahlen[max_index]
 
-print(max_value)
-print(max_index)
-print(wert)
+def Collatz_starting_num():
+    temp = 0
+    i = 1
+    while i < 1000000:
+        s = create_sequence_num(i)
+        if s > temp:
+            temp = s
+            value = i
+        i += 1
+
+    return value
+
+print(Collatz_starting_num())
