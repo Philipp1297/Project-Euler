@@ -1,2 +1,1 @@
-number= str(12356756757657575675675676575)
-print(number[:10])
+print(len("onethousand"))
