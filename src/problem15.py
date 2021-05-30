@@ -1,4 +1,4 @@
-# Problem 15
+# Problem 15 Lattice paths
 # Formular:
 # (2*n)! / (n! * n!)
 

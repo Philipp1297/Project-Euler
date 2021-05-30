@@ -1,4 +1,4 @@
-# Poblem 12
+# Poblem 12 Highly divisible triangular number
 
 import math
 

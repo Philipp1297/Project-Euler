@@ -1,3 +1,5 @@
+# Problem 14 Longest Collatz sequence
+
 def create_sequence_num(n):
     terms = 1
     while n > 1:

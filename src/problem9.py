@@ -1,4 +1,5 @@
 # Problem 9 Special Pythagorean triplet
+
 for i in range(0,1000):
     for j in range(0,1000):
         for k in range(0,1000):

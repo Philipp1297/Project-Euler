@@ -1,4 +1,4 @@
-# Problem 16
+# Problem 16 Power digit sum
 
 x= 2**1000
 y= str(x)

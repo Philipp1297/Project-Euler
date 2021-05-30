@@ -1,4 +1,4 @@
-# Problem 20
+# Problem 20 Factorial digit sum
 
 def fact(n):
     fact=1
